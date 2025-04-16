@@ -2,4 +2,43 @@
   width: 6vw;
   height: inherit;
   background-color: var(--color-1st);
+  display: grid;
+  place-items: center;
+}
+
+.layout__list {
+  height: 80%;
+  display: grid;
+  place-items: center;
+}
+
+.layout__item {
+  transform: rotate(-90deg);
+  font-family: var(--primary-font);
+  gap: 4rem;
+}
+
+.layout__item:nth-child(even) {
+  color: var(--color-4th);
+
+  & :hover {
+    color: var(--color-4th-hover);
+    transition: color 0.3s ease-in-out;
+  }
+}
+
+.layout__item:nth-child(odd) {
+  color: var(--color-3rd);
+
+  & :hover {
+    color: var(--color-3rd-hover);
+    transition: color 0.3s ease-in-out;
+  }
+}
+
+.layout__link {
+  font-size: 1.5rem;
+  text-transform: lowercase;
+  font-weight: bold;
+  cursor: pointer;
 }

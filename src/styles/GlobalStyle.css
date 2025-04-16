@@ -4,7 +4,7 @@
 /* Font-face personalizada */
 @font-face {
   font-family: "CalSans";
-  src: url("/assets/fonts/CalSans-SemiBold.woff2") format("woff2");
+  src: url("../assets/fonts/CalSans-SemiBold.woff2") format("woff2");
 }
 
 /* Reset Base */
@@ -14,7 +14,10 @@
   --color-1st: #181818;
   --color-2nd: #ffffff;
   --color-3rd: #41dbce;
+  --color-3rd-hover: #34b9ae;
   --color-4th: #f58888;
+  --color-4th-hover: #c26c6c;
+
   --color-5th: #ffd752;
   --color-6th: #4fc7ff;
   --border-color: #6e6e6e;

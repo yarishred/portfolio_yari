@@ -4,18 +4,18 @@ import "../../styles/components/NavSection.css";
 export const NavSection = () => {
   return (
     <nav className="layout__navigation">
-      <ul>
-        <li>
-          <button className="link menu-opt1">About</button>
+      <ul className="layout__list">
+        <li className="layout__item">
+          <a className="layout__link">About</a>
         </li>
-        <li>
-          <button className="link menu-opt1">works</button>
+        <li className="layout__item">
+          <a className="layout__link">works</a>
         </li>
-        <li>
-          <button className="link menu-opt2">blog</button>
+        <li className="layout__item">
+          <a className="layout__link">blog</a>
         </li>
-        <li>
-          <button className="link menu-opt2">contact</button>
+        <li className="layout__item">
+          <a className="layout__link">contact</a>
         </li>
       </ul>
     </nav>
