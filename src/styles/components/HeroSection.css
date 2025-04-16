@@ -1,0 +1,8 @@
+
+.layout__hero{
+    width: 100%;
+    height: inherit;
+    background-color: var(--color-4th);
+    display: grid;
+    place-items: center;
+}

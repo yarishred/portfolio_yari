@@ -1,0 +1,9 @@
+
+
+.layout__about{
+    width: 100%;
+    height: inherit;
+    background-color: var(--color-5th);
+    display: grid;
+    place-content: center;
+}

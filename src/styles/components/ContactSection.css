@@ -1,0 +1,9 @@
+
+
+.layout__contact {
+  width: 100%;
+  height: inherit;
+  background-color: var(--color-3rd);
+  display: grid;
+  place-items: center;
+}

@@ -1,0 +1,5 @@
+.layout__navigation {
+  width: 6vw;
+  height: inherit;
+  background-color: var(--color-1st);
+}
