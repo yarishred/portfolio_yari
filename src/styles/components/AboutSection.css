@@ -4,22 +4,29 @@
   background-color: var(--color-2nd);
   position: relative;
   overflow: hidden;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap: 10rem;
+}
+
+.layout__about__description{
+  width: 30vw;
+  height: 50vh;
+  background-color: orange;
 }
 
 .layout__about__shape {
   width: 300px;
   height: 400px;
-  background-color: transparent;
-  position: absolute;
-  top: 50%;
-  left: 70%;
-  transform: translate(-70%, -50%);
+  position: relative;
   display: flex;
   align-items: end;
   justify-content: center;
   border-bottom-left-radius: 150px;
   border-bottom-right-radius: 150px;
   z-index: 0;
+  
 }
 
 .layout__about__shape::after {
@@ -27,8 +34,8 @@
   height: 800px;
   background-color: var(--color-5th);
   position: absolute;
-  top: -444px;
-  left: -107px;
+  top: -446px;
+  left: -106px;
   content: " ";
   transform: rotate(45deg);
   transform-origin: bottom;
@@ -40,8 +47,8 @@
 }
 
 figure {
-  width: 300px;
-  height: 300px;
+  width: 310px;
+  height: 310px;
   background-color: var(--color-5th);
   display: flex;
   align-items: end;
@@ -55,5 +62,5 @@ figure img {
   border-bottom-right-radius: 150px;
   border-bottom-left-radius: 150px;
   z-index: -1;
-  filter: drop-shadow(0 0 20px var(--color-shadow-2));
+  filter: drop-shadow(0 0 40px var(--color-shadow-2));
 }
