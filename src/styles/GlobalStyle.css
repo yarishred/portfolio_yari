@@ -17,7 +17,8 @@
   --color-3rd-hover: #34b9ae;
   --color-4th: #f58888;
   --color-4th-hover: #c26c6c;
-
+  --color-shadow-1: #c3c3c3;
+  --color-shadow-2: #00000080;
   --color-5th: #ffd752;
   --color-6th: #4fc7ff;
   --border-color: #6e6e6e;
@@ -44,12 +45,6 @@ body {
   background-color: var(--color-1st);
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
 
 h1 {
