@@ -41,9 +41,8 @@
 html,
 body {
   font-family: var(--primary-font);
-  color: var(--color-2nd);
-  background-color: var(--color-1st);
-  line-height: 1.5;
+  color: var(--color-1st);
+  background-color: var(--color-2nd);
   -webkit-font-smoothing: antialiased;
 }
 
@@ -53,8 +52,8 @@ h1 {
 }
 
 p {
-  font-size: 1.3rem;
-  font-family: var(--primary-font);
+  font-size: 1.1rem;
+  font-family: var( --secondary-font);
 }
 
 ul,

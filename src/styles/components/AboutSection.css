@@ -5,15 +5,31 @@
   position: relative;
   overflow: hidden;
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   gap: 10rem;
 }
 
-.layout__about__description{
-  width: 30vw;
-  height: 50vh;
-  background-color: orange;
+.layout__about__description {
+  width: 600px;
+  height: auto;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+
+}
+
+.layout__about__description h2 {
+  font-size: 5rem;
+}
+
+.layout__about__description p {
+  font-weight: 400;
+}
+
+.layout__about__description span {
+  color: var(--color-5th);
 }
 
 .layout__about__shape {
@@ -26,7 +42,6 @@
   border-bottom-left-radius: 150px;
   border-bottom-right-radius: 150px;
   z-index: 0;
-  
 }
 
 .layout__about__shape::after {
