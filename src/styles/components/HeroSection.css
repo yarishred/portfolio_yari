@@ -1,8 +1,286 @@
+.hero {
+  width: 100%;
+  height: inherit;
+  background-color: var(--color-1st);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-.layout__hero{
-    width: 100%;
-    height: inherit;
-    background-color: var(--color-4th);
-    display: grid;
-    place-items: center;
+.hero__description {
+  width: 500px;
+  height: auto;
+}
+
+.hero__title {
+  font-size: 5rem;
+  font-family: var(--primary_font);
+  color: var(--color-3rd);
+}
+
+.hero__text {
+  color: var(--color-2nd);
+
+}
+
+.hero__text__highlight{
+  color: var(--color-3rd)
+}
+
+.hero__socialnetwork {
+  width: 40%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.hero__socialnetwork__icons {
+  margin-right: 1rem;
+  width: 30px;
+}
+
+.hero__techstack {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.hero__tech {
+  position: absolute;
+  width: calc(400px / 3);
+  height: calc(400px / 3);
+  border: none;
+}
+
+.hero__techIcon {
+  width: calc((200px / 3) * 2);
+  height: calc((200px / 3) * 2);
+}
+
+.hero__tech0 {
+  top: 0;
+  animation: fallingBlock0 1s linear;
+  transform: translateY(calc((400px / 3) * 2));
+}
+
+.hero__tech1 {
+  top: 1px;
+  animation: fallingBlock1 1s linear;
+  transform: translateY(calc(400px / 3));
+}
+
+.hero__tech2 {
+  left: 33.3%;
+  top: 0;
+  animation: fallingBlock2 1.5s linear;
+  transform: translateY(calc((400px / 3) * 2));
+}
+
+.hero__tech3 {
+  right: 0;
+  top: 0;
+  animation: fallingBlock3 0.9s linear;
+  transform: translateY(calc((400px / 3) * 2));
+}
+
+.hero__tech4 {
+  right: 0;
+  top: 1px;
+  animation: fallingBlock4 2s linear;
+  transform: translateY(calc(400px / 3));
+}
+
+.hero__tech5 {
+  top: 0;
+  animation: fallingBlock5 1.7s linear;
+  transform: translateY(2px);
+}
+
+.hero__tech6 {
+  left: 33.3%;
+  top: 1px;
+  animation: fallingBlock6 2.2s linear;
+  transform: translateY(calc(400px / 3));
+}
+
+.hero__tech7 {
+  left: 33.3%;
+  top: 0;
+  animation: fallingBlock7 2.5s linear;
+  transform: translateY(2px);
+}
+
+.hero__tech8 {
+  top: 0;
+  right: 0;
+  animation: fallingBlock8 2s linear;
+  transform: translateY(2px);
+}
+
+/* Keyframes */
+
+@keyframes fallingBlock0 {
+  0% {
+    transform: translateY(-54rem);
+  }
+
+  90% {
+    transform: translateY(calc((400px / 3) * 2));
+  }
+
+  95% {
+    transform: translateY(258px);
+  }
+
+  100% {
+    transform: translateY(calc((400px / 3) * 2));
+  }
+}
+
+@keyframes fallingBlock1 {
+  0% {
+    transform: translateY(-74rem);
+  }
+
+  90% {
+    transform: translateY(calc(400px / 3));
+  }
+
+  95% {
+    transform: translateY(124px);
+  }
+
+  100% {
+    transform: translateY(calc(400px / 3));
+  }
+}
+
+@keyframes fallingBlock2 {
+  0% {
+    transform: translateY(-54rem);
+  }
+
+  90% {
+    transform: translateY(calc((400px / 3) * 2));
+  }
+
+  95% {
+    transform: translateY(258px);
+  }
+
+  100% {
+    transform: translateY(calc((400px / 3) * 2));
+  }
+}
+
+@keyframes fallingBlock3 {
+  0% {
+    transform: translateY(-54rem);
+  }
+
+  90% {
+    transform: translateY(calc((400px / 3) * 2));
+  }
+
+  95% {
+    transform: translateY(258px);
+  }
+
+  100% {
+    transform: translateY(calc((400px / 3) * 2));
+  }
+}
+
+@keyframes fallingBlock4 {
+  0% {
+    transform: translateY(-80rem);
+  }
+
+  90% {
+    transform: translateY(calc(400px / 3));
+  }
+
+  95% {
+    transform: translateY(124px);
+  }
+
+  100% {
+    transform: translateY(calc(400px / 3));
+  }
+}
+
+@keyframes fallingBlock5 {
+  0% {
+    transform: translateY(-94rem);
+  }
+
+  90% {
+    transform: translateY(2px);
+  }
+
+  95% {
+    transform: translateY(-9px);
+  }
+
+  100% {
+    transform: translateY(2px);
+  }
+}
+
+@keyframes fallingBlock6 {
+  0% {
+    transform: translateY(-80rem);
+  }
+
+  90% {
+    transform: translateY(calc(400px / 3));
+  }
+
+  95% {
+    transform: translateY(124px);
+  }
+
+  100% {
+    transform: translateY(calc(400px / 3));
+  }
+}
+
+@keyframes fallingBlock7 {
+  0% {
+    transform: translateY(-90rem);
+  }
+
+  90% {
+    transform: translateY(2px);
+  }
+
+  95% {
+    transform: translateY(-9px);
+  }
+
+  100% {
+    transform: translateY(2px);
+  }
+}
+
+@keyframes fallingBlock8 {
+  0% {
+    transform: translateY(-90rem);
+  }
+
+  90% {
+    transform: translateY(2px);
+  }
+
+  95% {
+    transform: translateY(-9px);
+  }
+
+  100% {
+    transform: translateY(2px);
+  }
 }

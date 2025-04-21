@@ -21,6 +21,7 @@
   --color-shadow-2: #00000090;
   --color-5th: #ffd752;
   --color-6th: #4fc7ff;
+  --color-7th: #111111;
   --border-color: #6e6e6e;
   --primary-font: "CalSans", sans-serif;
   --secondary-font: "Poppins", sans-serif;
@@ -53,7 +54,7 @@ h1 {
 
 p {
   font-size: 1.1rem;
-  font-family: var( --secondary-font);
+  font-family: var(--secondary-font);
 }
 
 ul,
@@ -68,24 +69,14 @@ section {
 .layout {
   width: 100%;
   height: 100vh;
-  background-color: teal;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .layout__content {
-  /* width: 94vw;
-  height: inherit;
-  background-color: #4fc7ff;
-  overflow-x: auto;
-  display: grid;
-  grid-template-columns: repeat(4, 100%);
-  overflow-y: hidden; */
-
   width: 94vw;
   height: inherit;
-  background-color: #4fc7ff;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   display: grid;

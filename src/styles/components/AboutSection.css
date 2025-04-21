@@ -1,38 +1,37 @@
-.layout__about {
+.about {
   width: 100%;
   height: inherit;
   background-color: var(--color-2nd);
   position: relative;
-  overflow: hidden;
   display: flex;
+  overflow: hidden;
   justify-content: center;
   align-items: center;
   gap: 10rem;
 }
 
-.layout__about__description {
+.about__description {
   width: 600px;
   height: auto;
   padding: 2rem;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-
 }
 
-.layout__about__description h2 {
+.about__description__title {
   font-size: 5rem;
 }
 
-.layout__about__description p {
+.about__description__text {
   font-weight: 400;
 }
 
-.layout__about__description span {
+.about__description__highlight {
   color: var(--color-5th);
 }
 
-.layout__about__shape {
+.about__shape {
   width: 300px;
   height: 400px;
   position: relative;
@@ -42,9 +41,10 @@
   border-bottom-left-radius: 150px;
   border-bottom-right-radius: 150px;
   z-index: 0;
+  
 }
 
-.layout__about__shape::after {
+.about__shape::after {
   width: 300px;
   height: 800px;
   background-color: var(--color-5th);
@@ -61,7 +61,7 @@
     -5px -5px 20px var(--color-shadow-1);
 }
 
-figure {
+.about__image {
   width: 310px;
   height: 310px;
   background-color: var(--color-5th);
@@ -69,9 +69,10 @@ figure {
   align-items: end;
   border-radius: 50%;
   z-index: 0;
+  
 }
 
-figure img {
+.about__image__photo {
   width: 100%;
   display: block;
   border-bottom-right-radius: 150px;

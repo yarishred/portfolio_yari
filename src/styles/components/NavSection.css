@@ -1,7 +1,7 @@
 .layout__navigation {
   width: 6vw;
   height: inherit;
-  background-color: var(--color-1st);
+  background-color: var(--color-7th);
   display: grid;
   place-items: center;
 }
