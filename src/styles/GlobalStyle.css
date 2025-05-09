@@ -75,7 +75,7 @@ section {
 }
 
 .layout__content {
-  width: 94vw;
+  width: auto;
   height: inherit;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
@@ -83,6 +83,6 @@ section {
   grid-auto-flow: column;
   grid-template-columns: none;
   grid-auto-columns: 100%;
-  overflow-x: auto;
+  overflow-x: hidden;
   overflow-y: hidden;
 }
